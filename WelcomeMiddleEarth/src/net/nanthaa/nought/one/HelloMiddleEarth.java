@@ -11,8 +11,9 @@ public class HelloMiddleEarth
 		for (String name : names)
 		{
 			System.out.format("Hello, %s! \n", name);
+			System.out.println(" How are u doing today ? ");
 		}
-		System.out.println(" How are u doing today ? ");
+		
 	}
 
 }
