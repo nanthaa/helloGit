@@ -1,0 +1,128 @@
+@CHARSET "ISO-8859-1";
+body,table,tr,td
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+p
+{
+	margin: 0px;
+	padding: 0px;
+}	
+
+div
+{
+	margin: 0px;
+	padding: 0px;
+}	
+
+h1,h2,h3,h4
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Verdana";
+}
+
+ul,li
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;	
+	text-decoration: none;
+}
+
+input,label
+{
+	margin: 0px;
+	padding: 0px;
+}
+a:link , a:vsited , a:hover , a:focus
+{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+body
+{
+ background: #f4f4f4;	
+}
+
+/* .................. admin home .................. */
+
+.admin_main
+{
+	border: 1px solid red;
+}
+
+
+
+.admin_main ul li a:link ,.admin_main ul li a:visited
+{
+	font-size:18px;
+	font-family:"arial";
+	text-decoration: none;
+	color:#00423C;
+}
+
+.admin_main ul li a:hover ,.admin_main ul li a:focus
+{
+	
+	color: green;
+}
+
+
+/* ....................  header styles .................. */
+
+#header_main 
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#header_main h1
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#header_main h2
+{
+	margin: 0px;
+	padding: 0px 60px 20px 0px;
+	font-weight: normal;
+}
+
+#header_main h2 span
+{
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 14px;
+	
+}
+
+#header_main h2 span a:link , #header_main h2 span a:visited
+{
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 14px;
+	text-decoration: none;
+	color: red;
+}
+
+#header_main h2 span a:hover , #header_main h2 span a:focus
+{
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 14px;
+	text-decoration: none;
+	color: green;
+}
+
+#header_main tr.bor td
+{
+
+	border-bottom: 2px solid #9D9D9D;
+}

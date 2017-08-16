@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<display-name>
+	MiniProject
+</display-name>
+	<description>This Project acts as a template to all web application projects from DHS</description>
+
+     <servlet>
+		
+		<servlet-name>Loginsrv</servlet-name>
+		<servlet-class>com.dhs.actions.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Loginsrv</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+
+
+
+         <servlet>
+		
+		<servlet-name>Editsrv</servlet-name>
+		<servlet-class>com.dhs.actions.EditEmployeeServlet</servlet-class>
+	  </servlet>
+	 <servlet-mapping>
+		<servlet-name>Editsrv</servlet-name>
+		<url-pattern>/EditEmployee</url-pattern>
+	 </servlet-mapping>
+
+
+
+
+
+
+
+         <servlet>
+		
+		<servlet-name>Editdept</servlet-name>
+		<servlet-class>com.dhs.actions.EditDepartmentServlet</servlet-class>
+	  </servlet>
+	 <servlet-mapping>
+		<servlet-name>Editdept</servlet-name>
+		<url-pattern>/EditDepartment</url-pattern>
+	 </servlet-mapping>
+
+
+
+
+
+
+<servlet>
+		
+		<servlet-name>AddEmployeeSrv</servlet-name>
+		<servlet-class>com.dhs.actions.AddEmployee</servlet-class>
+	  </servlet>
+	  
+	 <servlet-mapping>
+		<servlet-name>AddEmployeeSrv</servlet-name>
+		<url-pattern>/AddEmployee</url-pattern>
+	 </servlet-mapping>
+
+
+
+
+<servlet>
+		
+		<servlet-name>changePass</servlet-name>
+		<servlet-class>com.dhs.actions.UserChangePassword_Action</servlet-class>
+	  </servlet>
+	  
+	 <servlet-mapping>
+		<servlet-name>changePass</servlet-name>
+		<url-pattern>/changePassword</url-pattern>
+	 </servlet-mapping>
+
+
+<servlet>
+		
+		<servlet-name>DeleteEmployeeSrv</servlet-name>
+		<servlet-class>com.dhs.actions.DeleteEmployeeServlet</servlet-class>
+	  </servlet>
+	  
+	 <servlet-mapping>
+		<servlet-name>DeleteEmployeeSrv</servlet-name>
+		<url-pattern>/DeleteEmployee</url-pattern>
+	 </servlet-mapping>
+
+
+
+<servlet>
+		
+		<servlet-name>DeleteDepartmentSrv</servlet-name>
+		<servlet-class>com.dhs.actions.DeleteDepartmentServlet</servlet-class>
+	  </servlet>
+	  
+	 <servlet-mapping>
+		<servlet-name>DeleteDepartmentSrv</servlet-name>
+		<url-pattern>/DeleteDepartment</url-pattern>
+	 </servlet-mapping>
+
+
+
+<servlet>
+		
+		<servlet-name>AddDepartmentSrv</servlet-name>
+		<servlet-class>com.dhs.actions.AddDepartmentServlet</servlet-class>
+	  </servlet>
+	  
+	 <servlet-mapping>
+		<servlet-name>AddDepartmentSrv</servlet-name>
+		<url-pattern>/AddDepartment</url-pattern>
+	 </servlet-mapping>
+
+
+
+
+
+
+
+
+<welcome-file-list>
+
+<welcome-file>/jsp/Login.jsp</welcome-file>
+
+</welcome-file-list>
+
+
+
+
+
+</web-app>
